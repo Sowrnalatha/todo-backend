@@ -13,7 +13,7 @@ app.use('/tasks', taskRoutes);
 
 // Optional: helpful for testing
 app.get('/', (req, res) => {
-  res.send('Backend is running ✅');
+  res.send(' ✅ Backend is running');
 });
 
 app.listen(PORT, () => {
